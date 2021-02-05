@@ -9,10 +9,10 @@ function FormInput() {
       
       //Modifico el estado del input
       const handleInputChange = (e) =>{
-          setInputValue(e.target.value);  
-        //  console.log(inputValue);       
+          setInputValue(e.target.value);     
       }
       
+      //manejo el submit 
       const handleSubmit=(e)=>{
         e.preventDefault();
 
@@ -21,6 +21,7 @@ function FormInput() {
             setItem([ inputValue, ...items]);
     
             setInputValue('');//DEjamos el campo vacio
+
         }
      }
 
