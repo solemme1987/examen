@@ -2,15 +2,15 @@ import React, {useState} from 'react'
 
 function ListTodo({items}) {
      
-      const [marcar, setMarcar] = useState('')
+    const [marcar, setMarcar] = useState('')
+    
     const handleClass=(e)=>{
     
          if(marcar===''){
 
             setMarcar('completed')
             e.target.className=(marcar);
-             
-            
+               
          }else{
              
              setMarcar('')
