@@ -39,7 +39,10 @@ function FormInput() {
             console.log('Mi lista',localStorage.getItem('lista'))
 
         }
-     }
+      }
+
+    //   Reamover elemento
+    
 
     return (
 
